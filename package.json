@@ -1,0 +1,30 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faizulislamfair/rest-api.git"
+  },
+  "keywords": [],
+  "author": "Faizul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizulislamfair/rest-api/issues"
+  },
+  "homepage": "https://github.com/faizulislamfair/rest-api#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
